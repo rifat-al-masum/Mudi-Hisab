@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>মুদি হিসাব - আপনার ডিজিটাল দোকান খাতা</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #E8F0FE; /* অ্যাপের থিম কালার */
+            color: #0F172A;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* Main Card - Liquid Glass Effect */
+        .container {
+            background: rgba(255, 255, 255, 0.65);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 24px;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+            max-width: 500px;
+            width: 100%;
+        }
+
+        /* App Logo */
+        .app-logo {
+            width: 100px;
+            height: 100px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        /* App Name */
+        h1 {
+            font-size: 36px;
+            color: #1A237E;
+            margin-bottom: 10px;
+        }
+
+        /* Description */
+        p {
+            font-size: 18px;
+            color: #475569;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+
+        /* Features List */
+        .features {
+            text-align: left;
+            margin: 0 auto 30px auto;
+            display: inline-block;
+            color: #334155;
+        }
+
+        .features li {
+            margin-bottom: 10px;
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .features li::before {
+            content: '✔';
+            color: #2563EB;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+
+        /* Download Button */
+        .download-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 18px 35px;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            display: inline-block;
+            box-shadow: 0 4px 15px rgba(118, 75, 162, 0.4);
+        }
+
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(118, 75, 162, 0.6);
+        }
+
+        /* Footer Note */
+        .footer-note {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #94a3b8;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 480px) {
+            h1 { font-size: 28px; }
+            p { font-size: 16px; }
+            .container { padding: 25px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+       <img src="logo.png" alt="মুদি হিসাব লোগো" class="app-logo">
+        
+        <h1>মুদি হিসাব</h1>
+        <p>আপনার মুদি দোকানের সম্পূর্ণ হিসাব এখন হাতের মুঠোয়। একদম অফলাইন ও নিরাপদ।</p>
+
+        <div class="features">
+            <li>১০০% অফলাইন (ইন্টারনেট লাগে না)</li>
+            <li>সহজ ও দ্রুত প্রোডাক্ট এন্ট্রি</li>
+            <li>লিকুইড গ্লাস আধুনিক ডিজাইন</li>
+            <li>ডেটা সম্পূর্ণ আপনার ফোনে সুরক্ষিত</li>
+        </div>
+        <br>
+
+        <!-- ডাউনলোড বাটন -->
+        <!-- ⚠️ এখানে 'href' এ '#' এর জায়গায় আপনার APK এর Direct Download Link দিন ⚠️ -->
+        <a href="https://github.com/rifatali91221-lab/Mudi-Hisab/releases/download/v1.0/MudiHisab.apk" class="download-btn" download>
+            📥 অ্যাপটি ডাউনলোড করুন (APK)
+        </a>
+
+        <p class="footer-note">ভার্সন ১.০ | সাইজ: (আপনার APK এর সাইজ লিখুন)</p>
+    </div>
+
+</body>
+</html>
