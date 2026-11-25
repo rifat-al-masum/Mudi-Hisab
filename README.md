@@ -2,7 +2,7 @@
 
 **মুদি হিসাব** হলো মুদি দোকানের প্রোডাক্ট ইনভেন্টরি এবং কাস্টমারদের দ্রুত বিল বা হিসাব করার জন্য তৈরি একটি আধুনিক, হালকা ও সম্পূর্ণ অফলাইন মোবাইল-ফার্স্ট অ্যাপ্লিকেশন।
 
-🌐 **ওয়েবসাইট ও APK ডাউনলোড:** [https://rifatali91221-lab.github.io/Mudi-Hisab/](https://rifatali91221-lab.github.io/Mudi-Hisab/)
+🌐 **ওয়েবসাইট ও APK ডাউনলোড:** [https://rifat-al-masum.github.io/Mudi-Hisab/](https://rifat-al-masum.github.io/Mudi-Hisab/)
 
 ---
 
